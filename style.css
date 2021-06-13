@@ -1,0 +1,49 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+nav {
+  font-family: 'Montserrat', sans-serif;
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  height: 69px;
+  width: 100%;
+
+}
+.carousel-item {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.bg-primary {
+  background-color: #ac9c7f !important;
+  font-family: 'Montserrat', sans-serif;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+.card-action.hover-card-action.action-center {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
